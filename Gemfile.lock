@@ -10,12 +10,15 @@ GEM
     childprocess (0.5.3)
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
+    docile (1.1.5)
     ffi (1.9.3)
     mime-types (1.25.1)
     mini_portile (0.6.0)
     multi_json (1.10.1)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
+    nyan-cat-formatter (0.10.0)
+      rspec (>= 2.99, >= 2.14.2, < 4)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -39,6 +42,11 @@ GEM
       multi_json (~> 1.0)
       rubyzip (~> 1.0)
       websocket (~> 1.0.4)
+    simplecov (0.9.0)
+      docile (~> 1.1.0)
+      multi_json
+      simplecov-html (~> 0.8.0)
+    simplecov-html (0.8.0)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -53,6 +61,8 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  nyan-cat-formatter
   rspec
   selenium-webdriver
+  simplecov
   sinatra

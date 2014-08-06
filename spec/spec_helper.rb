@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 require "sinatra"
 require 'capybara/rspec'
 require_relative '../lib/tdd'
